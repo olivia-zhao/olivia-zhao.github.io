@@ -1,0 +1,82 @@
+body{
+  background-color: gray;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  padding:0px;
+  margin: 0px;
+}
+.aboutme{
+  background-image: url("background.jpg");
+  padding: 30px;
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+}
+.index{
+  background-image: url("mountains.jpg");
+  padding: 30px;
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+}
+header{
+  background-image: url("mountains.jpg");
+  padding: 30px;
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  background-color: #333;
+  overflow: hidden;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #111;
+}
+section{
+  background: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+div{
+  width: 200px;
+  margin: auto;
+}
+img{
+  width: 200px;
+  border-radius: 50%;
+}
+footer{
+  background-color: darkseagreen;
+  padding: 30px;
+}
+@media screen and (max-width: 650px){
+  .index {
+    height: 200px;
+  }
+  .aboutme{
+    height: 200px
+  }
+  header{
+    height:200px
+  }
+}
+@media screen and (max-width: 450px){
+  
+}
